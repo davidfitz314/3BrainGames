@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">3 Brain Games</string>
+    <string name="_3_brain_games_title">3 Brain Games</string>
+    <string name="_3_brain_games_title_view">3 brain games title view</string>
+    <string name="dcf_apps_brand_and_logo">by DCF Apps <i>\'Play Your Way!\'</i></string>
+    <string name="dcf_apps_brand_and_logo_view">dcf apps brand and logo view</string>
+    <string name="play_piano_button_text">Piano Player</string>
+    <string name="play_piano_button_description">play piano button</string>
+    <string name="high_scores_button_text">View Scores!</string>
+    <string name="high_scores_button_description">high scores button</string>
+    <string name="towers_of_hanoi_button_text">Towers of Hanoi</string>
+    <string name="towers_of_hanoi_button_description">towers of hanoi button</string>
+    <string name="simple_simon_button_text">Simple Simon</string>
+    <string name="simple_simon_button_description">simple simon button</string>
+    <string name="piano_player_activity_label">Piano Player</string>
+    <string name="highscores_activity_label">Scores</string>
+    <string name="towers_of_hanoi_activity_label">Towers of Hanoi</string>
+    <string name="simple_simon_activity_label">Simple Simon</string>
+
+    <!-- Highscores Strings Section-->
+    <string name="default_zero_string">0</string>
+    <string name="piano_notes_played_tv_string">Notes Played:</string>
+    <string name="piano_player_highscore_tv_title"><u><i>Piano Player</i></u></string>
+    <string name="piano_title_textview_description">Piano title textview</string>
+    <string name="piano_highscores_header_textview_description">piano highscores header textview</string>
+    <string name="piano_highscore_display_textview_description">piano highscore display textview</string>
+    <string name="hs_reset_button_description">High Scores Reset Button</string>
+    <string name="simple_simon_title_text"><u><i>Simple Simon</i></u></string>
+    <string name="simple_simon_title_view_description">simple simon title view</string>
+    <string name="highscores_towers_of_hanoi_title_description">Towers of Hanoi Title</string>
+    <string name="highscores_towers_of_hanoi_title"><u><i>Towers of Hanoi</i></u></string>
+    <string name="highscores_1_header">#1.</string>
+    <string name="highscores_2_header">#2.</string>
+    <string name="highscores_3_header">#3.</string>
+    <string name="highscores_4_header">#4.</string>
+    <string name="highscores_5_header">#5.</string>
+    <string name="highscores_number_header_label_description">highscores number header</string>
+    <string name="high_scores_score_text_view_description">High Scores score text view</string>
+    <string name="reset_simple_simon_high_scores_button_description">reset Simple Simon High Scores Button</string>
+    <string name="reset_towers_of_hanoi_highscores_button_description">reset Towers of Hanoi HighScores button</string>
+
+    <!-- Alert Dialog Messages -->
+    <string name="you_win_alert_title">You Win!!!</string>
+    <string name="play_again_alert_message">Play Again?</string>
+    <string name="you_lost_alert_title">You Lost...</string>
+    <string name="yes_alert_answer">Yes!</string>
+    <string name="no_alert_answer">no...</string>
+    <!-- Simple Simon Score Text -->
+    <string name="ss_score_header_text">Score:</string>
+    <string name="simple_simon_score_text_header_description">simple simon score text header</string>
+    <string name="simple_simon_score_text_description">Simple Simon Score Text</string>
+    <!-- Towers of Hanoi Score Text -->
+    <string name="toh_score_header_text">Moves:</string>
+    <string name="toh_score_text_header_description">Towers of Hanoi Moves Score text header</string>
+    <string name="toh_score_text_description">Towers of Hanoi Moves Score Text</string>
+    <string name="you_won_toh_textview">You Won!</string>
+    <string name="play_again_toh_textview">Play Again!?</string>
+    <string name="play_again_toh_textview_description">play again toh textview</string>
+    <string name="you_won_toh_textview_description">you won toh textview</string>
+    <string name="you_won_ss_textview">You Won!</string>
+    <string name="you_won_ss_textview_description">you won ss textview</string>
+    <string name="play_again_ss_textview">Play Again!?</string>
+    <string name="play_again_ss_textview_description">play again ss textview</string>
+</resources>

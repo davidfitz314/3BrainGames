@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-56dp"
+        android:contentDescription="@string/_3_brain_games_title_view"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/_3_brain_games_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0"
+        android:contentDescription="@string/dcf_apps_brand_and_logo_view"
+        android:gravity="center_horizontal"
+        android:text="@string/dcf_apps_brand_and_logo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/simple_simon_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_weight="0"
+        android:onClick="startSimpleSimonGame"
+        android:contentDescription="@string/simple_simon_button_description"
+        android:text="@string/simple_simon_button_text" />
+
+    <Button
+        android:id="@+id/towers_of_hanoi_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="startTowersOfHanoiGame"
+        android:contentDescription="@string/towers_of_hanoi_button_description"
+        android:text="@string/towers_of_hanoi_button_text" />
+
+    <Button
+        android:id="@+id/play_piano_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="startPianoPlayerGame"
+        android:contentDescription="@string/play_piano_button_description"
+        android:text="@string/play_piano_button_text" />
+
+    <Button
+        android:id="@+id/high_scores_button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:contentDescription="@string/high_scores_button_description"
+        android:text="@string/high_scores_button_text"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:onClick="goToHighScoresActivity"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

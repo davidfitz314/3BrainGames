@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a3braingames">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_brain_games_3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_brain_games_3_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HighScoresActivity" android:parentActivityName=".MainActivity" android:label="@string/highscores_activity_label" android:launchMode="singleTop"/>
+        <activity android:name=".PianoPlayerActivity" android:parentActivityName=".MainActivity" android:label="@string/piano_player_activity_label" android:screenOrientation="landscape" android:launchMode="singleTop"/>
+        <activity android:name=".TowersOfHanoiActivity" android:parentActivityName=".MainActivity" android:label="@string/towers_of_hanoi_activity_label" android:screenOrientation="landscape" android:launchMode="singleTop"/>
+        <activity android:name=".SimpleSimonActivity" android:parentActivityName=".MainActivity" android:label="@string/simple_simon_activity_label" android:launchMode="singleTop"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

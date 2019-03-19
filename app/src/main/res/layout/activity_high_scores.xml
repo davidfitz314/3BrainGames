@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".HighScoresActivity">
+
+        <!-- Simple Simon HighScores Section -->
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/high_scores_titles"
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/simple_simon_title_view_description"
+                android:text="@string/simple_simon_title_text" />
+
+            <ImageButton
+                android:onClick="resetSimpleSimonScores"
+                android:contentDescription="@string/reset_simple_simon_high_scores_button_description"
+                style="@style/highscore_restart_scores_button"
+                android:src="@drawable/ic_refresh_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_1_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/ss_hs_one_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_2_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/ss_hs_two_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_3_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/ss_hs_three_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_4_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/ss_hs_four_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_5_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/ss_hs_five_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+
+        </LinearLayout>
+
+        <!-- Towers of Hanoi HighScores Section -->
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/high_scores_titles"
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/highscores_towers_of_hanoi_title_description"
+                android:text="@string/highscores_towers_of_hanoi_title" />
+
+            <ImageButton
+                android:onClick="resetTowersOfHanoiScores"
+                android:contentDescription="@string/reset_towers_of_hanoi_highscores_button_description"
+                style="@style/highscore_restart_scores_button"
+                android:src="@drawable/ic_refresh_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_1_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/toh_hs_one_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_2_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/toh_hs_two_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_3_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/toh_hs_three_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_4_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/toh_hs_four_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:text="@string/highscores_5_header"
+                android:contentDescription="@string/highscores_number_header_label_description"/>
+
+            <TextView
+                android:id="@+id/toh_hs_five_view"
+                android:contentDescription="@string/high_scores_score_text_view_description"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:text="@string/default_zero_string" />
+
+
+        </LinearLayout>
+
+        <!-- Piano Notes Played Section -->
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal">
+
+            <TextView
+                style="@style/high_scores_titles"
+                android:contentDescription="@string/piano_title_textview_description"
+                android:text="@string/piano_player_highscore_tv_title" />
+
+            <ImageButton
+                android:id="@+id/reset_piano_highscore"
+                style="@style/highscore_restart_scores_button"
+                android:contentDescription="@string/hs_reset_button_description"
+                android:onClick="resetPianoHighScore"
+                android:src="@drawable/ic_refresh_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/highscores_linearlayout_three_grouping_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                style="@style/highscore_headers"
+                android:contentDescription="@string/piano_highscores_header_textview_description"
+                android:text="@string/piano_notes_played_tv_string" />
+
+            <TextView
+                android:id="@+id/piano_player_notes_played_view"
+                style="@style/highscore_headers"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@string/piano_highscore_display_textview_description"
+                android:text="@string/default_zero_string" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
